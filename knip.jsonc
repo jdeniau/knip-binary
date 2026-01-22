@@ -1,0 +1,7 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema-jsonc.json",
+  "exclude": [
+    "enumMembers", // keep all enum members as it seems to report items even if exported from entry file
+  ],
+  // "ignoreBinaries": ["unknown-binary"],
+}
